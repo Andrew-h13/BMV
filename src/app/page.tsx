@@ -22,7 +22,7 @@ export default function Home() {
         alignItems: "center",
         flexDirection: "column",
         padding: "1rem",
-        backgroundColor: "#E4CDD3",
+        background: "linear-gradient(to bottom, #FF9A9E, #FAD0C4)",
         position: "relative",
         overflow: "hidden",
       }}
@@ -66,8 +66,8 @@ export default function Home() {
       >
         <Box
           sx={{
-            width: 150,
-            height: 150,
+            width: 370,
+            height: 500,
             border: "5px solid #FF5C8D",
             borderRadius: "15px",
             overflow: "hidden",
@@ -76,25 +76,8 @@ export default function Home() {
           <Image
             src="https://media1.tenor.com/m/OroVCOXbuUUAAAAC/sadhamstergirl.gif"
             alt="Bellingham GIF"
-            width={150}
-            height={150}
-          />
-        </Box>
-
-        <Box
-          sx={{
-            width: 150,
-            height: 150,
-            border: "5px solid #FF5C8D",
-            borderRadius: "15px",
-            overflow: "hidden",
-          }}
-        >
-          <Image
-            src="https://media1.tenor.com/m/Km11GYbvYY0AAAAd/good-morning.gif"
-            alt="Good Morning GIF"
-            width={150}
-            height={150}
+            width={370}
+            height={500}
           />
         </Box>
       </Box>

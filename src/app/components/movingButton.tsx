@@ -29,6 +29,7 @@ export default function BothButtons() {
   const router = useRouter();
 
   const handleRejection = () => router.push("/no");
+  const handleNotRejected = () => router.push("/yes");
 
   useEffect(() => {
     function updatePositions() {
@@ -61,6 +62,7 @@ export default function BothButtons() {
     <>
       <Button
         ref={yesButtonRef}
+        onClick={handleNotRejected}
         sx={{
           position: "absolute",
           left: `${yesButtonPosition.x}px`,
